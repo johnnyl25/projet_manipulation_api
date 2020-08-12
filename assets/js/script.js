@@ -41,10 +41,6 @@ $('#formulaire').submit(function (e) {
                 let price = element['card_prices'][i];
                 let title = element['name'];
                 let desc = element['desc'];
-                for (let i = 0; i < element.length; i++) {
-                    let toto = '<div class="card" ><img src="" class="card-img-top justify-content-center" alt="..." style="width:250px;height:300px;"><div class="card-body"><h5 class="card-title"></h5><p class="card-text"></p><p class="card-text"></p></div></div>';
-                    toto.innerHTML = toto[i]
-                }
                 let pavé = '<div class="card" ><img src="' + img + '" class="card-img-top justify-content-center" alt="..." style="width:250px;height:300px;"><div class="card-body"><h5 class="card-title">' + title + '</h5><p class="card-text">' + desc + '</p><p class="card-text">' + price + '</p></div></div>'
                 resultat.innerHTML = pavé
             }

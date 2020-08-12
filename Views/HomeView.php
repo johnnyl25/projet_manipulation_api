@@ -5,7 +5,7 @@ include 'header.php';
 
 ?>
 
-<div id="main" class="">
+<div id="body_home" class="">
         
 </div>
 
